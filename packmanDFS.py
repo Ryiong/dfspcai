@@ -27,9 +27,7 @@ for a in wallsList:
 global endPoint
 endPoint = (1, 4)
 
-
-circle = Circle(Point(((endPoint[0] - 1) * grid_side) + 25,
-                      ((endPoint[1] - 1) * grid_side) + 25), 25)
+circle = Circle(Point(((endPoint[0] - 1) * grid_side) + 25,((endPoint[1] - 1) * grid_side) + 25), 25)
 circle.setFill('yellow')
 circle.draw(win)
 
